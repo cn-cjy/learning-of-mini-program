@@ -1,0 +1,4 @@
+<!--pages/home/home.wxml-->
+<text class="title">Welcome to Chenjyp's Home Page</text>
+<br/>
+<button size="mini">按钮</button>
