@@ -1,4 +1,11 @@
 <!--pages/home/home.wxml-->
-<text class="title">Welcome to Chenjyp's Home Page</text>
-<br/>
-<button size="mini">按钮</button>
+<!-- 1.小程序的数据绑定：{{}} Mustache-->
+<view>Hello {{name}}</view>
+<view>我的年龄：{{age}}</view>
+
+<!-- 2.列表展示: wx:for -->
+<view wx:for="{{students}}">{{item.name}}--{{item.age}}</view>
+
+<!-- 3.事件监听改变data -->
+<view>当前计数:{{count}}</view>
+<button size='mini' bindtap="handleAddBtnClick">+</button><button size='mini' bindtap="handleSubBtnClick">-</button>

@@ -1,6 +1,31 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/about/about"
-  ]
+    "pages/about/about",
+    "pages/category/category"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Chenjyp's Program",
+    "backgroundColor": "black",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#9936FF",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "pictures/tabbaricons/icons8-home.png",
+        "selectedIconPath": "pictures/tabbaricons/icons8-home_active.png"
+      },
+      {"pagePath": "pages/category/category",
+      "text": "菜单",
+      "iconPath": "pictures/tabbaricons/icons8-menu.png",
+      "selectedIconPath": "pictures/tabbaricons/icons8-menu_active.png"
+    }
+    ]
+  }
 }

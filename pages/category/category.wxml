@@ -1,0 +1,6 @@
+<!--pages/category/category.wxml-->
+<text>展开分类</text>
+
+
+<button size="mini" bindtap="handleBtnClick">按钮</button>
+<view>{{message}}</view>
